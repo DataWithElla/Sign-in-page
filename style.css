@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;}
+
+    .logo{
+        width: 40px;
+        height: 40px;
+      
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+      
+    }
+    .form{
+    width: 100%;
+    height: auto;
+    padding:10rem 10rem 10rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fom{
+    width: 70%;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d7d7d7;
+
+}
+.email{ 
+    color: rgba(0, 0, 0, 0.479);
+    font-weight: bold;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+   row-gap: 1rem;
+  
+
+}
+.password{width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.passf{
+    color: rgba(0, 0, 0, 0.479);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.button{
+    width: 70%;
+    
+}
+.buttom-content a{
+    color:  rgb(2, 166, 177);
+    text-decoration: none;  
+}
+.passf a{
+    color:  rgb(2, 166, 177);
+    text-decoration: none;
+}
+
+
+.butin{
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 0.85rem 1rem 0.85rem 1rem;
+    background-color: rgb(2, 166, 177);
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.buttom-content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    color: rgba(0, 0, 0, 0.479);
+    font-weight: bold;
+    margin-top: 2rem;
+  
+}
+.sign-in{
+    width: fit-content;
+    height: auto;
+}
+.sign-in h1{
+    font-size: 1.3rem;
+}
+input{
+    width: 100%;
+    height: auto;
+    padding: 0.85rem 1rem 0.85rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #d7d7d7;
+    outline: none; 
+
+}
+input:focus{
+    border: 1.5px solid rgb(2, 166, 177);
+}
